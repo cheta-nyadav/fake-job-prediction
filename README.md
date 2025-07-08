@@ -51,6 +51,23 @@ Key steps included:
 - Identifying the most frequent job titles overall and among fake postings
 - Analyzing key categorical features like `employment_type`, `required_experience`, and `industry`
 - Creating a combined `text` column to consolidate multiple textual fields (`description`, `requirements`, etc.) for wordcloud
-
+the link fr the notebook is [here](https://github.com/cheta-nyadav/fake-job-prediction/blob/main/EDA.ipynb)
 ---
+## 🤖 Model Building
+
+After preparing and exploring the data, we built and evaluated two different classification models to predict whether a job posting is fake or real:
+
+1. **Multinomial Naive Bayes**
+   - Suitable for text-based classification tasks
+   - Trained on TF-IDF vectorized `text` data
+   - Achieved an accuracy of **87%**
+
+2. **Decision Tree Classifier**
+   - Trained on the same vectorized dataset
+   - Provides interpretability through decision rules
+   - Achieved a slightly higher accuracy of **91%**
+
+Each model was trained on a stratified train-test split with balanced classes, and evaluation included metrics like precision, recall, F1-score, and confusion matrix.
+
+📁 You can view the full modeling notebook [here](https://github.com/cheta-nyadav/fake-job-prediction/blob/main/Model%20main.ipynb)
 
