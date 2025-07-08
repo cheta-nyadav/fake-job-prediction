@@ -34,7 +34,10 @@ You can find the complete preprocessing code in the notebook [here](https://gith
 ---
 ## ⚖️ Class Imbalance Handling
 
-The dataset was highly imbalanced, with ~95% real jobs and only ~5% fake. This skews model performance, making it biased toward predicting all jobs as real.
+The dataset was highly imbalanced, with ~95% real jobs and only ~5% fake. This skews model performance, making it biased toward predicting all jobs as real. 
 
-To address this, we used **Random Undersampling**, which balances the data by randomly reducing the majority class to match the minority class. Though it discards some data, it's a fast and effective method for MVP-level projects. This gave us a balanced dataset, ready for model training.
+To address this, we used *Random Undersampling*, which balances the data by randomly reducing the majority class to match the minority class.
+Though it discards some data, it's a fast and effective method. This gave us a balanced dataset, ready for model training.
+
+
 ---
