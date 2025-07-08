@@ -17,3 +17,15 @@ It includes over 17,000 job listings, both real and fake, along with various fea
 - A `fraudulent` column indicating the label (t= fake, f = real)
 
 ---
+## 🧼 Data Preparation
+
+The following preprocessing steps were performed inbasic data preparation:
+
+1. **Importing the data** using Pandas
+2. **Initial EDA**: shape, info, value counts, head/tail of dataset
+3. **Handled missing values**:
+   - Dropped `salary_range` column due to >80% missing
+   - Filled missing values in other columns with placeholders like `"Other"`, `"Not specified"`, or `"Unknown"`
+4. **checkd for class imbalance** — that will be handled in the next step
+
+You can find the complete preprocessing code in the notebook here(https://github.com/cheta-nyadav/fake-job-prediction/blob/main/Data%20Preparation.ipynb)
