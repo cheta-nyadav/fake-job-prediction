@@ -37,7 +37,7 @@ You can find the complete preprocessing code in the notebook [here](https://gith
 The dataset was highly imbalanced, with ~95% real jobs and only ~5% fake. This skews model performance, making it biased toward predicting all jobs as real. 
 
 To address this, we used *Random Undersampling*, which balances the data by randomly reducing the majority class to match the minority class.
-Though it discards some data, it's a fast and effective method. This gave us a balanced dataset, ready for model training.
+Though it discards some data, it's a fast and effective method. This gave us a balanced dataset, ready for model training. can be accessed [here](https://github.com/cheta-nyadav/fake-job-prediction/blob/main/Handling%20Class%20Imbalance.ipynb)
 
 
 ---
