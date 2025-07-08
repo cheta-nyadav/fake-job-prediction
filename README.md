@@ -26,7 +26,7 @@ The following preprocessing steps were performed in basic data preparation:
 3. **Handled missing values**:
    - Dropped `salary_range` column due to >80% missing
    - Filled missing values in other columns with placeholders like `"Other"`, `"Not specified"`, or `"Unknown"` <br>
-4.**Cleaned text columns** that had html tags and links using '"BeautifulSoup"' and Regular Expressions.
-5. **checked for class imbalance** — that will be handled in the next step
+4. **Cleaned text columns** that had html tags and links using '"BeautifulSoup"' and Regular Expressions.
+   5. **checked for class imbalance** — that will be handled in the next step
 
 You can find the complete preprocessing code in the notebook [here](https://github.com/cheta-nyadav/fake-job-prediction/blob/main/Data%20Preparation.ipynb)
