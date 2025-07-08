@@ -25,7 +25,7 @@ The following preprocessing steps were performed in basic data preparation:
 2. **Initial EDA**: shape, info, value counts, head/tail of dataset
 3. **Handled missing values**:
    - Dropped `salary_range` column due to >80% missing
-   - Filled missing values in other columns with placeholders like `"Other"`, `"Not specified"`, or `"Unknown"`
+   - Filled missing values in other columns with placeholders like `"Other"`, `"Not specified"`, or `"Unknown"` <br>
 4.**Cleaned text columns** that had html tags and links using '"BeautifulSoup"' and Regular Expressions.
 5. **checked for class imbalance** — that will be handled in the next step
 
