@@ -60,12 +60,12 @@ After preparing and exploring the data, we built and evaluated two different cla
 1. **Multinomial Naive Bayes**
    - Suitable for text-based classification tasks
    - Trained on TF-IDF vectorized `text` data
-   - Achieved an accuracy of **87%**
+   - Achieved an accuracy of **0.901734**
 
 2. **Decision Tree Classifier**
    - Trained on the same vectorized dataset
    - Provides interpretability through decision rules
-   - Achieved a slightly higher accuracy of **91%**
+   - Achieved an accuracy of **0.85741**
 
 Each model was trained on a stratified train-test split with balanced classes, and evaluation included metrics like precision, recall, F1-score, and confusion matrix.
 
