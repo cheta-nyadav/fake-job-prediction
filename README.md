@@ -41,3 +41,16 @@ Though it discards some data, it's a fast and effective method. This gave us a b
 
 
 ---
+## 📊 Exploratory Data Analysis (EDA)
+
+We conducted exploratory analysis to understand patterns in job titles, categories, and text features that could indicate fraudulent postings.
+
+Key steps included:
+
+- Reviewing class distribution (post-undersampling)
+- Identifying the most frequent job titles overall and among fake postings
+- Analyzing key categorical features like `employment_type`, `required_experience`, and `industry`
+- Creating a combined `text` column to consolidate multiple textual fields (`description`, `requirements`, etc.) for wordcloud
+
+---
+
