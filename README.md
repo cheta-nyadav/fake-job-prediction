@@ -19,7 +19,7 @@ It includes over 17,000 job listings, both real and fake, along with various fea
 ---
 ## 🧼 Data Preparation
 
-The following preprocessing steps were performed inbasic data preparation:
+The following preprocessing steps were performed in basic data preparation:
 
 1. **Importing the data** using Pandas
 2. **Initial EDA**: shape, info, value counts, head/tail of dataset
@@ -28,4 +28,4 @@ The following preprocessing steps were performed inbasic data preparation:
    - Filled missing values in other columns with placeholders like `"Other"`, `"Not specified"`, or `"Unknown"`
 4. **checkd for class imbalance** — that will be handled in the next step
 
-You can find the complete preprocessing code in the notebook here(https://github.com/cheta-nyadav/fake-job-prediction/blob/main/Data%20Preparation.ipynb)
+You can find the complete preprocessing code in the notebook [here](https://github.com/cheta-nyadav/fake-job-prediction/blob/main/Data%20Preparation.ipynb)
